@@ -20,29 +20,9 @@ if (age<=10){
 
 const logo = document.querySelector(".header__logo")
 
-
-let list = [1, 5, 3, 4, 8, 99, 12, 432, 46, 7, 345, 778]
-for (let index = 0; index < list.length; index++) {
-    if (list[index]==12) {
-        console.log("yes")
-        break
-    }
-}
-
 logo.addEventListener("click",function(){
-    alert("less go")
+    alert("Welp you found this but why did you click on me tho")
 })
 
 
-function test() {
-    alert("This is useless")
-}
-//test()
-let check = document.querySelector(".input")
-
-check.addEventListener("selected",function(){
-    if (check.selected == true) {
-        test()
-    }
-})
 
