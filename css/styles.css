@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	z-index: 5;
 }
 .header__list {
-	z-index: 10;
+	z-index: 8;
 	display: flex;
 	position: relative;
 }
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .header__list__end{
-	padding-right: 200px;
+	padding-right: 300px;
 }
 
 
