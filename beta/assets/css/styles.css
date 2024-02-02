@@ -1,0 +1,85 @@
+/*Making the Footer Sticky*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}footer {
+    margin-top: auto;
+}
+
+/* Making the footer buttons padded */
+.btn_pad_x_1{
+    padding-right:20px;
+}
+.btn_pad_x_2{
+     padding-left:20px;
+}
+
+ /* Making the Baskerville text font class*/
+.bvile_font{
+    font-family: Baskerville;
+}
+
+ /* Making The title */
+.title_container{
+    width: 100%;
+    height: 725px;
+    text-align: center;
+    background: url(../img/main_bg_home.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.title_text{
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    margin-top:75px;
+    margin-bottom: 75px;
+}
+.title_button {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: rgb(2, 94, 110);
+    padding: 20px 50px;
+    background-color: white;
+    font-weight: bold;
+}
+/* Making the the padding of the containter of the text boxes*/
+.content_box{
+    padding: 15px 0 15px;
+}
+.main_area_container{
+    margin: 150px auto 50px;
+    width: 80%;
+}
+/* Making the the designs of the Text Boxes*/
+.content_box_title{
+    text-align: center;
+    background-color: #0d6efd;
+    padding: 20px 0;
+}
+.content_box_pharagraph{
+    text-align: center;
+    background-color: #0d57ca;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+/* Making the Styles for the About Me Section*/
+.about_me_text_container{
+    display:inline-block;
+    text-align: center;
+}
+.about_me_image_containter{
+    display:inline-block;
+}
+
+
+
+
+
+
+
