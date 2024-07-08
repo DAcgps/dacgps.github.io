@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.question-container {
+    margin: 20px 0;
+}
+.answer {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #e7f3fe;
+    border: 1px solid #c8dbee;
+    cursor: pointer;
+}
+.answer:hover {
+    background-color: #d0e7fc;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+#play-again {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#play-again:hover {
+    background-color: #45a049;
+}
+.special-message {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 20px;
+}
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: gold;
+    animation: confetti-fall 1s linear infinite;
+}
+@keyframes confetti-fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+#progress-bar-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+}
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.incorrect-answers .card-title {
+    color: #333;
+}
+
+.text-danger {
+    color: #dc3545; /* Bootstrap's default danger color */
+}
+
+.text-success {
+    color: #28a745; /* Bootstrap's default success color */
+}
