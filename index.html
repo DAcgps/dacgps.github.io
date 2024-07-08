@@ -1,55 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Hub</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DAbarsh Hub</title>
+    <meta name="viewport">
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__body">
-                    <a href="#" class="header__logo" >
-                        <div class="logo">
-                        </div>
-                    </a>
-
-
-                    <a href="#menu" class="header__burger">
-                        <span></span>
-
-                    </a>
-
-                    <nav class="header__menu" id="menu">
-                        <ul class="header__list">
-                            <li class="header__list__end">
-                                <a href="/alanturing/index.html" class="header__link">Alan Turing</a>
-                            </li>
-                            <li class="header__list__end">
-                                <a href="/pcparts/index.html" class="header__link" >Computer Parts</a>
-                            </li>
-                            <li class="header__list__end">
-                                <a href="/beta/index.html" class="header__link">Beta Site</a>
-                            </li>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container-fluid">
+            <img src="assets/img/logo.png" alt="Logo" width="30" height="24">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active bvile_font" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bvile_font disabled" href="#about_me_jump_spot">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown bvile_font">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu navbar-dark bg-primary dropdown-menu-dark">
+                            <li><a class="dropdown-item text-white bvile_font" href="alanturing/index.html">Alan Turing Website</a></li>
+                            <li><a class="dropdown-item text-white bvile_font" href="pcparts/index.html">PC Parts Website</a></li>
+                            <li><a class="dropdown-item text-white bvile_font" href="gravityGame/index.html">Gravity Game</a></li>
+                            <li><hr class="dropdown-divider text-white"></li>
+                            <li><a class="dropdown-item text-white bvile_font" href="https://github.com/DAcgps">Github Page</a></li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <div class="content">
-            <div class="content__text">
-                <p class="content__text__p">
-                    Website hub
-                </p>
-                <p class="content__text__p__2">
-                    To reach my other websites click on the name of the website you want to visit in the header bar.
-                </p>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div> 
-    <script src="/js/script.js"></script>
+    </nav>
+    <!-- Navbar  -->
+    <!--  Title Area  -->
+    <div class="title_container">
+        <div class="title_text bvile_font">
+            Daniel Land
+        </div>
+        <a class="title_button bvile_font" href="#main_area_start">
+            Go
+        </a>
+    </div>
+    <!--  Title Area  -->
+    <!--   Text Area -->
+    <div class="main_area_container">
+        <!--    Making the id to jump to this part-->
+        <a id="main_area_start">
+        </a>
+
+        <!--  First Content Box    -->
+        <div class="content_box">
+            <div class="content_box_containter">
+                <div class="content_box_title">
+                    <h1 class="content_title bvile_font text-white">
+                        How was this website made?
+                    </h1>
+                </div>
+                <div class="content_box_pharagraph">
+                    <p class="content_pharagraph bvile_font text-white">
+                        This website was made primarily using the Bootstrap framework for HTML. It was a project that I started as i wanted to learn and getter better at HTML, Javascript, and CSS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--  Second Content Box    -->
+        <div class="content_box">
+            <div class="content_box_containter">
+                <div class="content_box_title">
+                    <h1 class="content_title bvile_font text-white">
+                        A thanks to all my mentors.
+                    </h1>
+                </div>
+                <div class="content_box_pharagraph">
+                    <p class="content_pharagraph bvile_font text-white">
+                        I would like to credit my amazing computer science teachers Mr Schott, Mr Wickham, and Ms Depero for getting me interested in technology again.
+                        I would also like to thank Mr Schott for always responding to boatload of emails about different tech related questions no matter how easy, simple, or odd they were.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--   Text Area -->
+<!--      About Me  -->
+<!--    <div class="about_me_container">-->
+<!--        <a id="about_me_jump_spot"></a>-->
+
+<!--        <div about_me_text_container>-->
+<!--            <h1 class="about_me_title bvile_font">-->
+<!--                About Me!-->
+<!--            </h1>-->
+<!--            <p class="about_me_pharagraph bvile_font">-->
+<!--            H-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!--  About Me  -->
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-white navbar-dark bg-primary ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: CTA -->
+            <section class="">
+                <p class="d-flex justify-content-center align-items-center" >
+                    <sec class="btn_pad_x_1 bvile_font">
+                        <a type="button" class="btn btn-outline-light btn-rounded bvile_font" href="mailto:dapropandagamer@gmail.com">
+                            Email Me!
+                        </a>
+                    </sec>
+                    <sec class="btn_pad_x_2 bvile_font">
+                            <a type="button" class="btn btn-outline-light btn-rounded bvile_font disabled"  href="tel:3475108775">
+                                Call Me!
+                            </a>
+                    </sec>
+                </p>
+            </section>
+            <!-- Section: CTA -->
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 bvile_font" style="background-color: rgba(0, 0, 0, 0.2);">
+                © NO Copyright:
+                <a class="text-white bvile_font" href="https://dacgps.github.io">dacgps.github.io</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
 </body>
 </html>
